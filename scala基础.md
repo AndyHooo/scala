@@ -16,7 +16,7 @@ scala支持7种数值类型和1种Boolean类型。
 	- Byte/Char/Short/Int/Long/Float/Double
 	- Boolean  
 	
-注：所有这些类型都是类，Scala并未区分基本类型与引用类型。如，可以调用1.toString方法。    
+  注：所有这些类型都是类，Scala并未区分基本类型与引用类型。如，可以调用1.toString方法。  
 
 3. 数值类型转换：   
 scala中使用方法，而非强制类型转换来做数值类型之间的转换。如，  
@@ -55,7 +55,7 @@ math.sqrt(2)
 >scala\>"hello"(0)
 >res0:Char = h         
 
-上述调用中，"hello"(0)是"hello".apply(0)的调用。其中apply方法是StringOps类中的方法。
+ 上述调用中，"hello"(0)是"hello".apply(0)的调用。其中apply方法是StringOps类中的方法。
 ## 二.控制结构和函数  
 1. if语句也有返回值  
 if语句称为条件表达式，如：  
@@ -64,12 +64,12 @@ if语句称为条件表达式，如：
 >scala\>val y = if(x>1)1 else -1
 >y:Int =1
 
-条件表达式的结构为：`if(判断条件)值1 else 值2`  
+ 条件表达式的结构为：`if(判断条件)值1 else 值2`  
 该条件表达式可以用来初始化常量。   
 注：scala中每个表达式都会返回值，如
 >scala\>if(x>4)1
 >res0:AnyVal = ()
 
-条件表达式返回了(),其中()表示Unit类，表示没有值。可以看作java中的void类型。
+ 条件表达式返回了(),其中()表示Unit类，表示没有值。可以看作java中的void类型。
 
 未完待续：[scala学习基础](http://www.cnblogs.com/-crazysnail/p/3980024.html)
